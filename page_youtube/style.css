@@ -1,0 +1,58 @@
+/* style.css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  font-size: 100%;
+  background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+}
+
+h1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 24px;
+  font-family: 'Righteous', sans-serif;
+  font-weight: 400;
+  font-size: 64px;
+  color: #FFF2E7;
+}
+
+.video-container {
+  display: block;
+  margin: 0 auto;
+  width: 560px; /* Largura maior para o caixote */
+  height: 400px; /* Altura do caixote */
+  border-radius: 20px; /* Bordas arredondadas */
+  box-shadow: 5px 5px px rgba(40, 36, 36, 0.2); /* Sombra */
+  overflow: hidden; /* Para esconder as sobras do vídeo */
+}
+
+.video-container iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+p {
+  font-family: 'Sarala', sans-serif;
+  font-weight: 400px;
+  font-size: 18px;
+  color: #ECD6C4;
+  display: flex;
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente (opcional) */
+  padding: 12px;
+}
+
+.imagen-container {
+  display: flex;
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente (opcional) */
+  padding: 20px;
+}
